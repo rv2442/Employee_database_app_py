@@ -1,1 +1,1 @@
-#These are my projects solo and collaborative
+These are my projects solo and collaborative
