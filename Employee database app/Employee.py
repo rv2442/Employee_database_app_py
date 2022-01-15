@@ -4,7 +4,7 @@ import sqlite3
 import easygui as explorer
 
 class Database:
-    db_filename = r"C:\Users\Rahul\OneDriveSky\Desktop\PROJ FILES\Python Tkinter\Employee database app\database.db"
+    db_filename = r"database.db"
 
     def __init__(self,root):
         self.root=root
@@ -32,7 +32,7 @@ class Database:
         return query_result
 
     def create_left_icon(self):
-        photo=PhotoImage(file=r"C:\Users\Rahul\OneDriveSky\Desktop\PROJ FILES\Python Tkinter\Employee database app\employee_icon.png")
+        photo=PhotoImage(file=r"employee_icon.png")
         label=Label(image=photo)
         label.image=photo
         label.grid(row=0,column=0)
@@ -130,14 +130,11 @@ class Database:
         if(datalist_export!=[]):
             file = explorer.diropenbox() + r"\Exported_Data_DBapp.txt"
             data=open(file,"w+")
-            #c=open(r'C:\Users\Rahul\OneDrive - Sky University\Desktop\PROJ FILES\Python Tkinter\Employee database app\Exported database Records\Employee_database_export.txt',"w+")
-            #c=open(r'C:\Users\Rahul\OneDrive - Sky University\Desktop\PROJ FILES\Python Tkinter\Employee database app\Exported database Records\Employee_database_export.txt',"a+")
             data.write("")
             data=open(file,"a+")
             for b in datalist_export:
                 data.write(b)
             data.close()
-            #path=r"Desktop\PROJ FILES\Python Tkinter\Employee database app\Exported database Records"
             self.message['text'] = 'Data Exported to {}'.format(file)
         else:
             self.message['text'] = 'No data to export'
