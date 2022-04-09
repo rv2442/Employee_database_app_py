@@ -4,3 +4,9 @@ establish a communication between two Node MCUs and design a logic if "load 1 on
 
 Example: Suppose load 1 is ON at 10 PM then load 2 will remain off,
 load 1 is scheduled to be turned OFF by 3 am then at 3 am load 2 will be turned On.
+
+
+
+
+
+The RTC of the the MCU is updated every hour because of its low quality crystal causing time drifts after an hour.
