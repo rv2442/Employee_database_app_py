@@ -1,4 +1,4 @@
-# EMPLOYEE DATABASE APP USING PYTHON
+# [GUI] Employee Database App Using Python
 
 This is a basic GUI Employee Database Application using Python and SQLite having basic functionalities:
 >1. create 
