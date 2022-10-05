@@ -1,1 +1,12 @@
-This is a basic Employee Database Application using Python and SQLite having basic functionalities to create, modify, delete individuals, delete all, import, and export CSV formatted data.
+# EMPLOYEE DATABASE APP USING PYTHON
+
+This is a basic GUI Employee Database Application using Python and SQLite having basic functionalities:
+>1. create 
+>2. modify 
+>3. delete individuals 
+>4. delete all 
+>5. import, and export CSV formatted data
+
+Technologies used:
+>1. Python (Tkinter)
+>2. SQlite
