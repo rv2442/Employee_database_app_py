@@ -14,7 +14,7 @@
 ### Dependencies
 > ```pip install -r requirements.txt``` in cmd / terminal(pip3)  
 >You need to install sqlite browser on your system and create a table using the query:
-```
+```sql
 CREATE TABLE "employee_database" (
 	"id"	INTEGER,
 	"employeeid"	VARCHAR(255) NOT NULL UNIQUE,
